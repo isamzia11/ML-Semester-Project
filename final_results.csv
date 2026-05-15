@@ -1,0 +1,28 @@
+Dataset,Regularization,Imbalance,Accuracy,F1,Precision,Recall,PR-AUC
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L1 (Lasso),None,0.8061,0.0591,1.0,0.0304,0.433
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L1 (Lasso),SMOTE,0.6452,0.33,0.2652,0.437,0.4203
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L1 (Lasso),Weighted,0.667,0.3316,0.277,0.413,0.4199
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L2 (Ridge),None,0.8065,0.0632,1.0,0.0326,0.4347
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L2 (Ridge),SMOTE,0.6448,0.3287,0.2642,0.4348,0.4197
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",L2 (Ridge),Weighted,0.6622,0.3261,0.2713,0.4087,0.4178
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",Elastic Net,None,0.8065,0.0632,1.0,0.0326,0.434
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",Elastic Net,SMOTE,0.6452,0.33,0.2652,0.437,0.42
+"DS1 — Epileptic Seizure (UCI, 178 EEG features)",Elastic Net,Weighted,0.6643,0.3299,0.2746,0.413,0.4186
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L1 (Lasso),None,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L1 (Lasso),SMOTE,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L1 (Lasso),Weighted,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L2 (Ridge),None,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L2 (Ridge),SMOTE,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",L2 (Ridge),Weighted,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",Elastic Net,None,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",Elastic Net,SMOTE,1.0,1.0,1.0,1.0,1.0
+"DS2 — Clinical Features (EEG_FREE, 33 clinical)",Elastic Net,Weighted,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L1 (Lasso),None,0.975,0.9756,0.9524,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L1 (Lasso),SMOTE,0.975,0.9756,0.9524,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L1 (Lasso),Weighted,0.975,0.9756,0.9524,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L2 (Ridge),None,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L2 (Ridge),SMOTE,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",L2 (Ridge),Weighted,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",Elastic Net,None,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",Elastic Net,SMOTE,1.0,1.0,1.0,1.0,1.0
+"DS3 — Statistical EEG (newfeature, 11 stats)",Elastic Net,Weighted,1.0,1.0,1.0,1.0,1.0
